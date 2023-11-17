@@ -2,4 +2,55 @@ section{
     border: 2px solid red;
 }
 
-.
+.abacate{
+    display: flex;
+    align-items: center; /*Alinhamento do eixo transversal  */
+    justify-content: center; /* alinhamento do eixo principal */
+    gap: 4rem; /* espacamento entre as linhas do display flex*/
+
+    margin-bottom: 1rem;
+}
+
+.abacate img{
+    width: 20rem;
+}
+
+.abacate p{
+    width: 30rem;
+    text-align: center;
+}
+
+.morango{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 4rem;
+
+    margin-bottom: 1rem;
+}
+
+.morango img{
+    width: 20rem;    
+}
+
+.morango p{
+    width: 30rem;
+    text-align: center;
+}
+
+.formulario{
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.formulario div{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario form{
+    width: 30rem;
+}
